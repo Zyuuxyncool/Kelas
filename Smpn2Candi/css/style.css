@@ -1,0 +1,25 @@
+/* Base Styles */
+*, html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    background-color: #3f6358;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #efa017;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#79c2d0, #53a8b6);
+    border-radius: 10px;
+}

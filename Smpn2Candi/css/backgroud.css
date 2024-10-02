@@ -1,0 +1,47 @@
+
+/* Background Header */
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.485)), url('../images/b6.jpeg') center/cover no-repeat;
+    background-attachment: fixed;
+    height: 900px;
+    width: 100%;
+    position: relative;
+    color: azure;
+}
+
+.main-left {
+    text-align: left;
+}
+
+.main-left h2 {
+    font-size: 4rem;
+    padding-left: 95px;
+    padding-top: 3.5em;
+}
+ 
+.main-left , .text {
+    font-size: 2rem;
+    padding-left: 95px;
+}
+
+
+
+@media (max-width: 768px) {
+    .main-left h2 {
+        font-size: 3rem;
+    }
+
+    .main-left p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-left h2 {
+        font-size: 2rem;
+    }
+
+    .main-left p {
+        font-size: 1rem;
+    }
+}

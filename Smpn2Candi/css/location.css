@@ -1,0 +1,37 @@
+/* Location Section */
+.location {
+    background-color: rgb(67, 29, 5);
+    padding: 20px;
+    margin-top: 0; 
+    padding-top: 0; 
+}
+
+.location h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-bottom: 35px;
+    padding-top: 20px;
+}
+
+.location .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.lokasisekolah {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.location p {
+    margin-right: 195px;
+    margin-top: 200px;
+    font-size: 2rem;
+    text-align: start;
+    max-width: 400px;
+    color: white;
+}

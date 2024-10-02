@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMPN 2 CANDI</title>
+    <link rel="shortcut icon" type="png" href="../Smpn2Candi/images/20240816_001021.png" >
+    <link rel="stylesheet" href="../Smpn2Candi/css/style.css">
+    <link rel="stylesheet" href="../Smpn2Candi/css/navbar.css">
+    <link rel="stylesheet" href="../Smpn2Candi/css/backgroud.css">
+    <link rel="stylesheet" href="../Smpn2Candi/css/location.css">
+    <link rel="stylesheet" href="../Smpn2Candi/css/prestasi.css">
+    <link rel="stylesheet" href="../Smpn2Candi/css/sosialmedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+<body>
+    <div class="cover"></div>
+<nav>
+    <div class="logo">
+        <img class="logo-img" src="images/20240816_001021.png" alt="Logo">
+    </div>
+    <h2>SMPN 2 CANDI SIDOARJO</h2>
+    <div class="menu-toggle" id="menu-toggle">
+        &#9776;
+    </div>
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="menu">Home</a></li>
+        <li><a href="#info sekolah" class="menu">Loca/tion School</a></li>
+        <li><a href="#prestasi" class="menu">Penghargaan</a></li>
+        <li><a href="#sosmed kontak" class="menu">Sosial Media</a></li>
+        <li><a href="#kontak kami" class="menu">Kontak kami</a></li>
+    </ul>
+    
+</nav>
+<div class="background">
+    
+    <main>
+            <div class="main-left">
+                <h2>SMPN 2 CANDI</h2>
+                <div class="text"> By :  <span class="typing"></span></div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+            </div>
+        
+    </main>
+</div>
+
+
+<div class="sections-container">
+    <section class="location">
+        <h1>School Location</h1>
+        <div class="content">
+            <div class="lokasisekolah">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.73549721905!2d112.71996349999999!3d-7.494428099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e74bedac4881%3A0x7b21b5b1de1a7603!2sSekolah%20Menengah%20Pertama%20Negeri%202%20Candi%20Sidoarjo!5e0!3m2!1sid!2sid!4v1725404739599!5m2!1sid!2sid"
+                        width="800" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <p>Jl. Ngampelsari, Tawang Sari, Ngampelsari, 
+                <br> Kec. Candi, Kabupaten Sidoarjo, Jawa Timur 61271
+            </p>
+        </div>
+    </section>
+
+    <section class="prestasi">
+        <h1>REKOR MURI</h1>
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="images/prestasi.jpeg" alt="Prestasi 1">
+            </div>
+            <div class="carousel-item">
+                <img src="images/prestasi2.jpg" alt="Prestasi 2">
+            </div>
+            <div class="carousel-item">
+                <img src="images/prestasi3.avif" alt="Prestasi 3">
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <section class="sosmed-kontak">
+        <div class="sosmed">
+            <h1>Sosial Media</h1>
+            <div class="sosmed-icons">
+                <a href="https://www.instagram.com/smpnegeri2candi?igsh=MXNnM3l6d283eTF1Zw==" class="instagram" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@smpnegeri2candi?_t=8pogwoMpX2D&_r=1" class="tiktok" aria-label="Tiktok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="kontak">
+            <h1>Kontak Kami</h1>
+            <p>Email: smpn2candi86@gmail.com</p>
+            <p>Telepon: 0318961942</p>
+        </div>
+    </section>
+    
+    
+    
+</div>
+
+<footer>
+    <!-- Add footer content here if needed -->
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll('.carousel-item');
+    const dots = document.querySelectorAll('.dot');
+    let currentIndex = 0;
+
+
+    function showSlides() {
+        currentIndex++;
+        if (currentIndex >= slides.length) {
+            currentIndex = 0;
+        }
+        updateCarousel(currentIndex);
+        setTimeout(showSlides, 4000);
+    }
+
+    showSlides();
+});
+
+</script>
+<script src="main.js"></script>
+
+</body>
+</html>

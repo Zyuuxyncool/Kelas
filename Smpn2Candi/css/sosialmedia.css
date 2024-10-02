@@ -1,0 +1,71 @@
+/* Sosmed dan Kontak Section */
+.sosmed-kontak {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(14, 7, 3);
+    color: #fff;
+}
+
+.sosmed, .kontak {
+    text-align: left;
+}
+
+.sosmed h1, .kontak h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sosmed-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.sosmed a {
+    text-decoration: none;
+    transition: box-shadow 0.3s, color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    background: transparent;
+}
+
+.sosmed .instagram i {
+    color: #E1306C;
+    font-size: 50px;
+}
+
+.sosmed .tiktok i {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+/* Efek glow */
+.sosmed .instagram:hover {
+    box-shadow: 0 0 15px rgba(225, 48, 108, 0.8);
+}
+
+.sosmed .tiktok:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+
+@media (max-width: 768px) {
+    .sosmed-kontak {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sosmed-icons {
+        gap: 15px;
+    }
+
+    .kontak {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
