@@ -1,0 +1,78 @@
+*,
+html {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+  background-color: #3f6358;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #efa017;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#79c2d0, #53a8b6);
+  border-radius: 10px;
+}
+
+.footer {
+  background: #302ea3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.home {
+  height: 600px;
+  width: 100%;
+  background-color: green;
+  padding: 50px 50px;
+}
+
+.galery {
+  height: 600px;
+  width: 100%;
+  background-color: blue;
+  padding: 50px 50px;
+}
+
+.jadwal {
+  height: 600px;
+  width: 100%;
+  background-color: red;
+  padding: 50px 50px;
+}
+
+.sejarah {
+  height: 600px;
+  width: 100%;
+  background-color: yellow;
+  padding: 50px 50px;
+}
+
+.kontak {
+  height: 600px;
+  width: 100%;
+  background-color: purple;
+  padding: 50px 50px;
+}
+
+.kegiatan {
+  height: 600px;
+  width: 100%;
+  background-color: orange;
+  padding: 50px 50px;
+}
+
+.footer {
+  text-align: center;
+}
